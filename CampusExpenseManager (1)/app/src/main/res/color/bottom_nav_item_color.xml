@@ -1,0 +1,7 @@
+<!-- res/color/bottom_nav_item_color.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Màu khi mục được chọn -->
+    <item android:color="@android:color/white" android:state_checked="true"/>
+    <!-- Màu khi mục không được chọn -->
+    <item android:color="@android:color/darker_gray" android:state_checked="false"/>
+</selector>

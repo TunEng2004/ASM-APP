@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink_light">#F48FB1</color> <!-- Màu hồng nhạt -->
+    <color name="pink">#E91E63</color>
+    <color name="pink_dark" />
+    <color name="primary_pink">#F48FB1</color> <!-- Màu hồng nhạt -->
+    <color name="primary_pink_dark">#E91E63</color> <!-- Màu hồng đậm -->
+    <color name="primary_white">#FFFFFF</color> <!-- Màu trắng -->
+    <color name="primary_grey">#777777</color> <!-- Màu xám -->
+    <color name="background_color">#F8D4E5</color> <!-- Màu nền hồng nhạt -->
+    <color name="secondary_grey">#333333</color> <!-- Màu xám đậm -->
+    <color name="white">#FFFFFF</color>
+
+</resources>

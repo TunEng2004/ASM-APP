@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Icon Con Heo Đất -->
+    <ImageView
+        android:id="@+id/ivPiggyBank"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_piggy_bank"
+        android:contentDescription="Con heo đất tiết kiệm"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Ô nhập Tên đăng nhập -->
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đăng nhập"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#808080"
+        android:textColor="#000000"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:drawablePadding="10dp" />
+
+    <!-- Ô nhập Email -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="8dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#808080"
+        android:textColor="#000000"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:drawablePadding="10dp" />
+
+    <!-- Ô nhập Mật khẩu -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        android:textColorHint="#808080"
+        android:textColor="#000000"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="10dp" />
+
+    <!-- Nút Đăng Ký -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF4081"
+    android:textColor="@android:color/white"
+    android:padding="12dp" />
+
+    <!-- Nút Quay lại Đăng Nhập -->
+    <Button
+        android:id="@+id/btnBackToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại Đăng Nhập"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF80AB"
+    android:textColor="@android:color/white"
+    android:padding="12dp" />
+</LinearLayout>
